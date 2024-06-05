@@ -16,10 +16,10 @@ body > * {
 }
 
 .profile {
-    /*
+    
     display:block;
     margin-left: auto;
-    margin-right: auto;*/
+    margin-right: auto;
     width: min(50%, calc(var(--max-width)/2));
     margin-bottom: 2vh;
     border-radius: 50%; /* hack to make a circle */
