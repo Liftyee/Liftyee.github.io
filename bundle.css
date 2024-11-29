@@ -30,7 +30,7 @@ header {
     padding: 1vh 2vh;
 }
 
-img {
+.project {
     display: block;
     width: min(50%, calc(var(--max-width)/2));
     justify-self: center;
