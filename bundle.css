@@ -30,10 +30,15 @@ header {
     padding: 1vh 2vh;
 }
 
-main {
-    
+img {
+    display: block;
+    width: min(50%, calc(var(--max-width)/2));
+    justify-self: center;
 }
 
-/* body > * {
-
-} */
+.montage {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    padding: 1vw
+}
