@@ -31,9 +31,11 @@ header {
 }
 
 .project {
-    display: block;
+    display: flex;
+    flex-direction: row;
     width: min(50%, calc(var(--max-width)/2));
-    justify-self: center;
+    padding: 1vw;
+    align-self: center;
 }
 
 .montage {
