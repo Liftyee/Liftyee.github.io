@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Mosaic</title>
+  <style>
+    .mosaic {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 10px;
+    }
+
+    .mosaic-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .mosaic-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .mosaic-item:hover img {
+      transform: scale(1.1);
+    }
+
+    .mosaic-title {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.6);
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      font-size: 16px;
+      transition: background 0.3s ease;
+    }
+
+    .mosaic-item:hover .mosaic-title {
+      background: rgba(0, 0, 0, 0.8);
+    }
+  </style>
+</head>
+<body>
+  <div class="mosaic">
+    <div class="mosaic-item">
+      <img src="project1.jpg" alt="Project 1">
+      <div class="mosaic-title">Project 1</div>
+    </div>
+    <div class="mosaic-item">
+      <img src="project2.jpg" alt="Project 2">
+      <div class="mosaic-title">Project 2</div>
+    </div>
+    <div class="mosaic-item">
+      <img src="project3.jpg" alt="Project 3">
+      <div class="mosaic-title">Project 3</div>
+    </div>
+    <div class="mosaic-item">
+      <img src="project4.jpg" alt="Project 4">
+      <div class="mosaic-title">Project 4</div>
+    </div>
+  </div>
+</body>
+</html>
