@@ -86,18 +86,24 @@ theme = 'terminal'
       words = "words"
 
       [languages.en.params.logo]
-        logoText = "Terminal"
+        logoText = "Victor's Projects"
         logoHomeLink = "/"
 
       [languages.en.menu]
+	[[languages.en.menu.main]]
+          identifier = "tft"
+          name = "Project Trinfiltration"
+          url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        [[languages.en.menu.main]]
+          identifier = "showcase"
+          name = "Showcase"
+          url = "/showcase"
         [[languages.en.menu.main]]
           identifier = "projects"
           name = "Projects"
           url = "/projects"
-        [[languages.en.menu.main]]
-          identifier = "showcase"
-          name = "Showcase"
-          url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+
 
 [module]
   # In case you would like to make changes to the theme and keep it locally in you repository,
@@ -105,4 +111,4 @@ theme = 'terminal'
   # --
   # replacements = "github.com/panr/hugo-theme-terminal/v4 -> themes/terminal"
 [[module.imports]]
-  path = 'github.com/panr/hugo-theme-terminal/v4'
+  path = 'terminal'
