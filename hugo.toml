@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://liftyee.com/'
+languageCode = 'en-gb'
+title = 'Victor's Projects'
 theme = 'terminal'
 
 [caches]
