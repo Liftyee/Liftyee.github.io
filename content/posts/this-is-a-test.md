@@ -2,7 +2,7 @@
 title = "This Is a Test"
 date = "2025-07-05T00:02:12+01:00"
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
-author = ""
+author = "Victor"
 cover = ""
 tags = []
 keywords = []
