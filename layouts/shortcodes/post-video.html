@@ -1,0 +1,6 @@
+{{ with .Page.Resources.GetMatch (.Get 0) }}
+<video controls playsinline preload="metadata" width="720" height="720" style="display: block; width: 100%; max-width: 560px; height: auto;">
+  <source src="{{ .RelPermalink }}" type="video/mp4">
+  <a href="{{ .RelPermalink }}">Download the demo video</a>
+</video>
+{{ end }}

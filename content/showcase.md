@@ -7,7 +7,7 @@ title = 'About'
 # Project showcase
 ## more like a list, for now 
 
-![Profile picture](img/profile.jpg)
+![Profile picture](/img/profile.jpg)
 
 ## 2024
 
@@ -16,14 +16,14 @@ qalc yampad
 ## 2023
 
 Telemetry Unit V2
-![Telemetry Unit V2](img/telem2.jpg)
+![Telemetry Unit V2](/img/telem2.jpg)
 
 Capacity-optimized battery charger
-![Capacity-optimized battery charger](img/charger.jpg)
+![Capacity-optimized battery charger](/img/charger.jpg)
 
 Rocket-launched mesh network experiment (CanSat)
-![CanSat](img/cansat.jpg)
-![CanSat PCB](img/cansatpcb.jpg)
+![CanSat](/img/cansat.jpg)
+![CanSat PCB](/img/cansatpcb.jpg)
 
 ## 2022
 1337Link
